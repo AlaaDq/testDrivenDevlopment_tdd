@@ -15,6 +15,7 @@ class BookReservationsTest extends TestCase
 
     /** @test */
     public function a_book_can_be_checked_out(){
+        
         $book= factory(\App\Book::class)->create();
         $user= factory(\App\User::class)->create();
         
